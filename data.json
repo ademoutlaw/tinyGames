@@ -1,0 +1,61 @@
+{
+    "multipoles":{
+        "connectorI":{"type":"connector","imageIndex":0,"sides":[[2],[],[0],[]]},
+        "connectorT":{"type":"connector","imageIndex":1,"sides":[[1,2],[0,2],[0,1],[]]},
+        "connector+":{"type":"connector","imageIndex":2,"sides":[[1,2,3],[0,2,3],[0,1,3],[0,1,2]]},
+        "connectorX":{"type":"connector","imageIndex":3,"sides":[[2],[3],[0],[1]]},
+        "connectorU":{"type":"connector","imageIndex":4,"sides":[[3],[],[],[0]]},
+        "connectorUU":{"type":"connector","imageIndex":5,"sides":[[3],[2],[1],[0]]},
+        "generatorI":{"type":"generator","imageIndex":6,"sides":[[2],[],[0],[]]},
+        "generatorU":{"type":"generator","imageIndex":7,"sides":[[3],[],[],[0]]},
+        "generatorT":{"type":"generator","imageIndex":8,"sides":[[1,2],[0,2],[0,1],[]]},
+        "generator+":{"type":"generator","imageIndex":9,"sides":[[1,2,3],[0,2,3],[0,1,3],[0,1,2]]},
+        "lamp":{"type":"lamp","imageIndex":10,"sides":[[],[],[],[]]}
+    },
+    "maps":[
+        [
+            {"model":"connectorI","angle":0,"color":null},
+            {"model":"connectorT","angle":0,"color":null},
+            {"model":"connector+","angle":0,"color":null},
+            {"model":"connectorX","angle":0,"color":null},
+            {"model":"connectorU","angle":0,"color":null},
+            {"model":"connectorUU","angle":0,"color":null},
+            {"model":"generatorI","angle":0,"color":"001"},
+            {"model":"generatorU","angle":0,"color":"010"},
+            {"model":"generatorT","angle":0,"color":"001"},
+            {"model":"generator+","angle":0,"color":"100"},
+            {"model":"lamp","angle":0,"color":null}
+        ],
+        [
+            {"model":"lamp","angle":0,"color":"100"},
+            {"model":"connectorT","angle":0,"color":null},
+            {"model":"connectorI","angle":0,"color":null},
+            {"model":"generatorU","angle":0,"color":"100"},
+            {"model":"generatorI","angle":0,"color":"001"},
+
+            {"model":"lamp","angle":0,"color":"100"},
+            {"model":"connectorUU","angle":0,"color":null},
+            {"model":"connectorI","angle":0,"color":null},
+            {"model":"connectorX","angle":0,"color":null},
+            {"model":"connectorU","angle":0,"color":null},
+
+            {"model":"connectorU","angle":0,"color":null},
+            {"model":"connectorT","angle":0,"color":null},
+            {"model":"lamp","angle":0,"color":"101"},
+            {"model":"connectorT","angle":0,"color":null},
+            {"model":"lamp","angle":0,"color":"100"},
+
+            {"model":"lamp","angle":0,"color":"001"},
+            {"model":"connectorI","angle":3,"color":null},
+            {"model":"connectorU","angle":0,"color":null},
+            {"model":"connectorUU","angle":0,"color":null},
+            {"model":"connectorT","angle":0,"color":null},
+
+            {"model":"lamp","angle":0,"color":"001"},
+            {"model":"connectorT","angle":0,"color":null},
+            {"model":"connectorU","angle":3,"color":null},
+            {"model":"lamp","angle":0,"color":"001"},
+            {"model":"lamp","angle":0,"color":"100"}
+        ]
+    ]
+}
